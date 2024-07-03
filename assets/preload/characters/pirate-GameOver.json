@@ -1,41 +1,41 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-10,
-				0
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "firstDeath",
 			"loop": false,
-			"name": "bf dies"
-		},
-		{
 			"offsets": [
-				-210,
-				-100
+				37,
+				11
 			],
-			"indices": [],
+			"anim": "firstDeath",
 			"fps": 24,
-			"anim": "deathLoop",
+			"name": "BF dies",
+			"indices": []
+		},
+		{
 			"loop": true,
-			"name": "death loop"
+			"offsets": [
+				67,
+				-5
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
 		},
 		{
 			"offsets": [
-				-120,
-				-60
+				187,
+				-1
 			],
 			"indices": [],
 			"fps": 24,
 			"anim": "deathConfirm",
 			"loop": false,
-			"name": "retry"
+			"name": "BF Dead Confirm"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Game_Over/BF_death",
+	"image": "characters/Game_Over/ivashka-dies",
 	"position": [
 		0,
 		350

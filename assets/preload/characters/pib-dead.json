@@ -1,41 +1,41 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
-				-10,
+				25,
+				-12
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Pibby death loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-19
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Pibby death confirm",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
 				0
 			],
 			"indices": [],
 			"fps": 24,
 			"anim": "firstDeath",
 			"loop": false,
-			"name": "bf dies"
-		},
-		{
-			"offsets": [
-				-210,
-				-100
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "deathLoop",
-			"loop": true,
-			"name": "death loop"
-		},
-		{
-			"offsets": [
-				-120,
-				-60
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "deathConfirm",
-			"loop": false,
-			"name": "retry"
+			"name": "Pibby death0"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Game_Over/BF_death",
+	"image": "characters/Game_Over/pibby_dead",
 	"position": [
 		0,
 		350
